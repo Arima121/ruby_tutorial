@@ -10,13 +10,13 @@ puts('hola mundo!')
 
 # Las variables locales se inicializan directamente. Ruby no es un lenguaje fuertemente tipado, por lo que puedes hacer lo que quieras con las variables
 nombre = 'Juan Topo'
-puts "hola mundo con variables: hola #{nombre}!"
+puts "hola mundo con variables: hola #{ nombre }!"
 nombre = 1
-puts "ahora nombre es un numero!: nombre + 1 = #{nombre + 1}"
-nombre = [1,2,3]
-puts "ahora nombre es un arreglo :D!: #{nombre}"
+puts "ahora nombre es un numero!: nombre + 1 = #{ nombre + 1 }"
+nombre = [1, 2, 3]
+puts "ahora nombre es un arreglo :D!: #{ nombre }"
 nombre = { llave: 'valor' }
-puts "y ahora es un mapa (que en ruby son se llaman hash): #{nombre} y se usan con la llave: #{nombre[:llave]}"
+puts "y ahora es un mapa (que en ruby son se llaman hash): #{ nombre } y se usan con la llave: #{ nombre[:llave] }"
 
 # Si te diste cuenta, existen 2 tipos de string en ruby, uno con comillas simples ('') y otro con comillas dobles ("")
 # El primero es un string simple
