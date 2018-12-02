@@ -1,3 +1,4 @@
+# Variables locales
 # Los comentarios en ruby se hacen con #
 
 # Para ejecutar un programa en ruby no existe una regla en particular, puedes ponerle el nombre que quieras al archivo
