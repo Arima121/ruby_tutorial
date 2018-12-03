@@ -53,7 +53,7 @@ mostrar_mensaje_y_llamar_bloque_con_parametros { |parametro| puts "esto se recib
 # funciones que reciben parametros y bloques de código que no reciben parametros
 def mostrar_mensaje_y_llamar_funcion_con_parametros_y_bloque_sin_parametros limite
   puts 'ahora se va a llamar al bloque con limite'
-  (1..limite).each do |variable|
+  (1..limite).each do
     yield if block_given?
   end
   puts 'ya se llamó el bloque'
