@@ -51,8 +51,21 @@ end
 unless a != 1
   puts 'a == 1'
 end
-#La traducción sería... a menos que a sea distinto de 1, muestra que a es igual a 1
+# La traducción sería... a menos que a sea distinto de 1, muestra que a es igual a 1
 
 # versión de linea
 puts 'a == 1' unless a != 1
 #La traducción sería... muestra que a es igual a 1, a menos que a sea distinto de 1
+
+# Por último, switch
+# En realidad, en ruby "no hay" switch
+# la instrucción se llama case y se usa así:
+
+case a
+when 'valor'
+  puts 'si, es valor'
+when 1
+  puts 'es 1'
+else
+  puts 'otro valor'
+end
