@@ -8,3 +8,4 @@ Tutorial básico de ruby
 - Ejemplo 6: Funciones
 - Ejemplo 7: Clases y objetos
 - Ejemplo 8: Herencia
+- Ejemplo 9: Modulos
