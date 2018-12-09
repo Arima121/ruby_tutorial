@@ -1,4 +1,4 @@
-# Orientación a objetos
+# Clases y objetos
 
 # las clases se definen usando la palabra class y el nombre con mayuscula
 class Cuadrado

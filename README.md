@@ -6,3 +6,5 @@ Tutorial básico de ruby
 - Ejemplo 4: Condicionales
 - Ejemplo 5: Ciclos
 - Ejemplo 6: Funciones
+- Ejemplo 7: Clases y objetos
+- Ejemplo 8: Herencia
