@@ -11,3 +11,4 @@ Tutorial básico de ruby
 - Ejemplo 9: Modulos
 - Ejemplo 10: Archivos
 - Ejemplo 11: Excepciones
+- Ejemplo 12: Cliente REST
