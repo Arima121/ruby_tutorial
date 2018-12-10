@@ -10,3 +10,4 @@ Tutorial básico de ruby
 - Ejemplo 8: Herencia
 - Ejemplo 9: Modulos
 - Ejemplo 10: Archivos
+- Ejemplo 11: Excepciones
