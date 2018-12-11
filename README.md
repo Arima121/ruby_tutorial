@@ -12,3 +12,4 @@ Tutorial básico de ruby
 - Ejemplo 10: Archivos
 - Ejemplo 11: Excepciones
 - Ejemplo 12: Cliente REST
+- Ejemplo 13: Gemas
