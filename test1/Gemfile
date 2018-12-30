@@ -1,0 +1,7 @@
+source 'https://rubygems.org/'
+
+gem 'grape', '~> 1.0.1'
+gem 'rack-cors', '~> 1.0'
+gem 'grape-entity', '~> 0.6.1'
+gem 'json', '~> 2.1'
+gem 'steno', '~> 1.3'

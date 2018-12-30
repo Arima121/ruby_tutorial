@@ -1,0 +1,12 @@
+version: '2'
+services:
+  app:
+    image: ruby:latest
+    working_dir: /home/ruby/app
+    tty: true
+    volumes:
+      - ./:/home/ruby/app
+      - ./.docker/bundle/:/usr/local/bundle/:delegated
+    ports:
+      - '9292:9292'
+    command: bash -c "bundle install && bundle exec 'rackup -E production -o 0.0.0.0'"
